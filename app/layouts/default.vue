@@ -1,6 +1,6 @@
 <template>
   <div class="flex min-h-screen flex-col">
-    <Header />
+    <LayoutsHeader />
     <main class="flex-1">
       <slot />
     </main>

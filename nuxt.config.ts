@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: ['@pinia/nuxt', '@nuxt/ui', '@nuxt/image'],
+  modules: ['@pinia/nuxt', '@nuxt/ui', '@nuxt/image', '@nuxtjs/i18n'],
   css: ['~/assets/css/main.css'],
   // configure the module using `pinia` property
   pinia: {
@@ -16,4 +16,11 @@ export default defineNuxtConfig({
      */
     storesDirs: [],
   },
+    i18n: {
+    locales: [
+      { code: 'en', language: 'en-US' },
+      { code: 'ar', language: 'ar-SA' }
+    ],
+    defaultLocale: 'en',
+  }
 })

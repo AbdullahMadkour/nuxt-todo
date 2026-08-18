@@ -10,8 +10,10 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@iconify-vue/lucide": "^1.0.56",
     "@nuxt/image": "^2.1.0",
     "@nuxt/ui": "^4.10.0",
+    "@nuxtjs/i18n": "^10.6.0",
     "@pinia/nuxt": "^1.0.2",
     "nuxt": "^4.5.2",
     "pinia": "^4.0.3",

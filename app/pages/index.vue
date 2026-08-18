@@ -1,0 +1,3 @@
+<template>
+  <NuxPage />
+</template>

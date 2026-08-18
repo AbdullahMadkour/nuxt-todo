@@ -9,5 +9,6 @@
 }
 
 @theme static {
-  --color-primary: #7c3aed;
+  --color-primary: #6632cd;
+  --color-secondary: #feefcd;
 }
